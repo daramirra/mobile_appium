@@ -4,12 +4,6 @@
 # Log file
 *.log
 
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
 # BlueJ files
 *.ctxt
 
@@ -27,7 +21,7 @@
 *.iml
 
 # Project gen files
-.idea
+.idea/
 .allure/
 .gradle/
 allure-results/
