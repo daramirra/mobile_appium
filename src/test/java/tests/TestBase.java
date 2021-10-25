@@ -20,7 +20,8 @@ public class TestBase {
     public static void setup() {
         addListener("AllureSelenide", new AllureSelenide());
 
-        switch (System.getProperty("DeviceHost")) {
+        String deviceHost = System.getProperty("deviceHost");
+        switch (deviceHost) {
             case "browserstack":
                 Configuration.browser = BrowserstackMobileDriver.class.getName();
                 break;
@@ -34,7 +35,8 @@ public class TestBase {
                 Configuration.browser = RealDeviceMobileDriver.class.getName();
                 break;
             default:
-                System.out.println("Please run with parameter -DeviceHost=browserstack/selenoid/emulation/real");
+                throw new IllegalArgumentException("Unknown deviceHost=" + deviceHost +
+                        ". Please run with parameter -DdeviceHost=[browserstack/selenoid/emulation/real]");
         }
 
         Configuration.startMaximized = false;
