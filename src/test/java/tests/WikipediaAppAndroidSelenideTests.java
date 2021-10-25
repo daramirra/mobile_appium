@@ -12,31 +12,31 @@ public class WikipediaAppAndroidSelenideTests extends TestBase{
     @Test
     void checkContentTest() {
 
-        step("Main content verification", () -> {
+        step("Экран содержит запись 'The Free Encyclopedia …in over 300 languages'", () -> {
             $(MobileBy.id("org.wikipedia.alpha:id/primaryTextView"))
                     .shouldHave(text("The Free Encyclopedia …in over 300 languages"));
         });
 
-        step("Click continue", () ->
+        step("Нажать 'Сontinue'", () ->
                 $(MobileBy.id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")).click());
 
-        step("New ways to explore", () -> {
+        step("Экран содержит запись 'New ways to explore'", () -> {
             $(MobileBy.id("org.wikipedia.alpha:id/primaryTextView"))
                     .shouldHave(text("New ways to explore"));
         });
 
-        step("Click continue", () ->
+        step("Нажать 'Сontinue'", () ->
                 $(MobileBy.id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")).click());
 
-        step("Reading lists with sync", () -> {
+        step("Экран содержит запись 'Reading lists with sync'", () -> {
             $(MobileBy.id("org.wikipedia.alpha:id/primaryTextView"))
                     .shouldHave(text("Reading lists with sync"));
         });
 
-        step("Click continue", () ->
+        step("Нажать 'Сontinue'", () ->
                 $(MobileBy.id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")).click());
 
-        step("Send anonymous data", () -> {
+        step("Экран содержит запись 'Send anonymous data'", () -> {
             $(MobileBy.id("org.wikipedia.alpha:id/primaryTextView"))
                     .shouldHave(text("Send anonymous data"));
         });
