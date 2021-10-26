@@ -48,3 +48,63 @@ gradle clean test -DdeviceHost=emulation
  > *Запуск тестов на реальном устройстве (Appium) с заполненным realdevice.properties:*
 ```bash
 gradle clean test -DdeviceHost=real
+```
+ > *Сформировать allure отчет:*
+```bash
+allure serve build/allure-results
+```
+## <img width="4%" title="Jenkins" src="images/jenkins-logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/C07-daramirra-mobile)
+### :pushpin: Параметры сборки
+    HOST (default selenoid)
+    ALLURE_NOTIFICATIONS_VERSION (default 3.1.1)
+<p align="center">
+  <img src="jenkins_param.png" alt="job" width="800">
+</p>
+
+## <img width="4%" title="Allure Report" src="images/allure-Report-logo.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/C07-daramirra-mobile/2/allure/)
+### :pushpin: Общая информация
+<p align="center">
+  <img src="images/Allure Report.png" alt="Allure Report" width="900">
+</p>
+
+### :pushpin: Тест c описанием шагов и визуализацией результатов
+<p align="center">
+  <img src="images/Allure Report steps.png" alt="Allure Report" width="900">
+</p>
+
+## <img width="4%" title="Allure TestOPS" src="images/allure-ee-logo.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/645/dashboards) 
+### :pushpin: Основной дашборд
+<p align="center">
+  <img src="images/allureTestOPS dashboards.png" alt="dashboards" width="900">
+</p>
+
+### :pushpin: Запуски
+<p align="center">
+  <img src="images/allureTestOPS launches.png" alt="launches" width="900">
+</p>
+
+### :pushpin: Результат запуска
+<p align="center">
+  <img src="images/allureTestOPS launch.png" alt="launch" width="900">
+</p>
+
+### :pushpin: Тест-кейсы
+<p align="center">
+  <img src="images/Test cases.png" alt="test cases" width="900">
+</p>
+
+## <img width="4%" title="Jira" src="images/jira-logo.svg"> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-268)
+<p align="center">
+  <img src="images/allureTestOPS jira.png" alt="jira" width="1000">
+</p>
+
+## <img width="4%" title="Selenoid" src="images/selenoid-logo.svg"> Пример запуска теста в Selenoid 
+<p align="center">
+  <img src="images/video.gif" alt="video" width="900">
+</p>
+
+## <img width="4%" title="Telegram" src="images/Telegram.svg"> Уведомления в Telegram 
+<p align="center">
+  <img src="images/tlgrm.png" alt="Telegram" width="900">
+</p>
+<br><br>
