@@ -75,22 +75,22 @@ allure serve build/allure-results
 ## <img width="4%" title="Allure TestOPS" src="images/allure-ee-logo.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/645/dashboards) 
 ### :pushpin: Основной дашборд
 <p align="center">
-  <img src="images/allureTestOPS dashboards.png" alt="dashboards" width="900">
+  <img src="images/allureTestOPS dashboards.png" alt="dashboards" width="1000">
 </p>
 
 ### :pushpin: Запуски
 <p align="center">
-  <img src="images/allureTestOPS launches.png" alt="launches" width="900">
+  <img src="images/allureTestOPS launches.png" alt="launches" width="1000">
 </p>
 
 ### :pushpin: Результат запуска
 <p align="center">
-  <img src="images/allureTestOPS launch.png" alt="launch" width="900">
+  <img src="images/allureTestOPS launch.png" alt="launch" width="1000">
 </p>
 
 ### :pushpin: Тест-кейсы
 <p align="center">
-  <img src="images/Test cases.png" alt="test cases" width="900">
+  <img src="images/Test cases.png" alt="test cases" width="1000">
 </p>
 
 ## <img width="4%" title="Jira" src="images/jira-logo.svg"> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-268)
@@ -105,6 +105,6 @@ allure serve build/allure-results
 
 ## <img width="4%" title="Telegram" src="images/Telegram.svg"> Уведомления в Telegram 
 <p align="center">
-  <img src="images/tlgrm.png" alt="Telegram" width="900">
+  <img src="images/Telegram.png" alt="Telegram" width="600">
 </p>
 <br><br>
