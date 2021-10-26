@@ -1,6 +1,9 @@
 package tests;
 
+import annotations.JiraIssue;
+import annotations.JiraIssues;
 import io.appium.java_client.MobileBy;
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
@@ -10,6 +13,8 @@ import static io.qameta.allure.Allure.step;
 public class WikipediaAppAndroidSelenideTests extends TestBase{
 
     @Test
+    @Owner("dlapshinova")
+    @JiraIssues({@JiraIssue("HOMEWORK-268")})
     void checkContentTest() {
 
         step("Экран содержит запись 'The Free Encyclopedia …in over 300 languages'", () -> {
