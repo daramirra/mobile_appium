@@ -23,12 +23,12 @@
 >*Для сборки проекта используется <code><strong>*Gradle*</strong></code>.*
 > 
 >*<code><strong>*JUnit 5*</strong></code> используется как фреймворк для модульного тестирования.*
->  
->*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
 >   
 >*Запуск тестов выполняется из <code><strong>*Jenkins*</strong></code>.*
 >    
 >*<code><strong>*Selenoid*</strong></code> используется для запуска браузеров в контейнерах <code><strong>*Docker*</strong></code>.*
+> 
+>*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
 
 ## :computer: Запуск тестов из терминала
 
