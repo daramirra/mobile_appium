@@ -58,7 +58,7 @@ allure serve build/allure-results
     HOST (default selenoid)
     ALLURE_NOTIFICATIONS_VERSION (default 3.1.1)
 <p align="center">
-  <img src="jenkins_param.png" alt="job" width="800">
+  <img src="images/jenkins_param.png" alt="job" width="800">
 </p>
 
 ## <img width="4%" title="Allure Report" src="images/allure-Report-logo.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/C07-daramirra-mobile/2/allure/)
