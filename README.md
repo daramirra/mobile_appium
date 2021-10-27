@@ -1,4 +1,5 @@
 # Проект по автоматизации тестирования мобильного приложения Wikipedia (Android)
+### :spiral_notepad: Реализованы проверки по 4 экранам страницы Getting started мобильного приложения Wikipedia
 
 ## :rocket: Технологии и инструменты
 <p  align="center"
@@ -28,8 +29,6 @@
 >*Запуск тестов выполняется из <code><strong>*Jenkins*</strong></code>.*
 >    
 >*<code><strong>*Selenoid*</strong></code> используется для запуска браузеров в контейнерах <code><strong>*Docker*</strong></code>.*
-
-### :spiral_notepad: Реализованы проверки по 4 экранам страницы Getting started мобильного приложения Wikipedia
 
 ## :computer: Запуск тестов из терминала
 
