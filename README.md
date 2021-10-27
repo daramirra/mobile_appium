@@ -32,23 +32,23 @@
 
 ## :computer: Запуск тестов из терминала
 
- > *Запуск тестов в Browserstack с заполненным browserstack.properties:* 
+- [x] *Запуск тестов в Browserstack с заполненным browserstack.properties:* 
 ```bash
 gradle clean test -DdeviceHost=browserstack
 ```
- > *Запуск тестов в Selenoid с заполненным selenoid.properties:* 
+- [x] *Запуск тестов в Selenoid с заполненным selenoid.properties:* 
 ```bash
 gradle clean test -DdeviceHost=selenoid
 ```
- > *Запуск тестов в эмуляторе (Appium) с заполненным emulation.properties:*
+- [x] *Запуск тестов в эмуляторе (Appium) с заполненным emulation.properties:*
 ```bash
 gradle clean test -DdeviceHost=emulation
 ```
- > *Запуск тестов на реальном устройстве (Appium) с заполненным realdevice.properties:*
+- [x] *Запуск тестов на реальном устройстве (Appium) с заполненным realdevice.properties:*
 ```bash
 gradle clean test -DdeviceHost=real
 ```
- > *Сформировать allure отчет:*
+- [x] *Сформировать allure отчет:*
 ```bash
 allure serve build/allure-results
 ```
