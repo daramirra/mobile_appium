@@ -1,5 +1,5 @@
 # Проект по автоматизации тестирования мобильного приложения Wikipedia (Android)
-### :spiral_notepad: Реализованы проверки по 4 экранам страницы Getting started мобильного приложения Wikipedia
+#### :spiral_notepad: *Реализованы проверки по 4 экранам страницы Getting started мобильного приложения Wikipedia*
 
 ## :rocket: Технологии и инструменты
 <p  align="center"
