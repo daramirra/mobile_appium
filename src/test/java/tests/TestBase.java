@@ -1,14 +1,10 @@
 package tests;
 
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.conditions.webdriver.Url;
-import config.Project;
-import config.SelenoidConfig;
 import drivers.BrowserstackMobileDriver;
 import drivers.EmulatorMobileDriver;
 import drivers.RealDeviceMobileDriver;
 import drivers.SelenoidMobileDriver;
-import helpers.Attach;
 import helpers.BrowserstackVideoUrlBuilder;
 import helpers.SelenoidVideoUrlBuilder;
 import helpers.VideoUrlBuilder;
@@ -18,7 +14,6 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.open;

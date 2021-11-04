@@ -1,7 +1,5 @@
 package helpers;
 
-import config.Project;
-
 public class SelenoidVideoUrlBuilder implements VideoUrlBuilder {
     @Override
     public String buildVideoUrl(String sessionId) {
