@@ -1,0 +1,9 @@
+appiumUrl=http://127.0.0.1:4723/wd/hub
+platformName=Android
+deviceName=
+version=11.0
+locale=en
+language=en
+appPackage=org.wikipedia.alpha
+appActivity=org.wikipedia.main.MainActivity
+appUrl=https://github.com/wikimedia/apps-android-wikipedia/releases/download/latest/app-alpha-universal-release.apk

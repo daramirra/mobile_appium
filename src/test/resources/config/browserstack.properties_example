@@ -1,0 +1,9 @@
+browserstackUrl=http://hub.browserstack.com/wd/hub
+browserstackUser=
+browserstackKey=
+appUrl=bs://1c46fe8ed59eb7fe676773ec53dbae0003f3a625
+device=Google Pixel 4
+osVersion=11.0
+project=Test Java Project
+build=Java Android
+name=Selenide test
