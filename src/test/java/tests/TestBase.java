@@ -60,7 +60,7 @@ public class TestBase {
 
     @AfterEach
     public void afterEach() {
-        if(videoUrlBuilder != null){
+        if (videoUrlBuilder != null) {
             attachVideo(videoUrlBuilder.buildVideoUrl(getSessionId()));
         }
 

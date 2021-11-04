@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static io.qameta.allure.Allure.step;
 
-public class WikipediaAppAndroidSelenideTests extends TestBase{
+public class WikipediaAppAndroidSelenideTests extends TestBase {
 
     @Test
     @Owner("dlapshinova")
