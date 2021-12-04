@@ -1,3 +1,9 @@
+<p align="right">
+<a href="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=daramirra.mobile_appium&color=55acb7&style=flat&logo=Github&text=Hello_Visitors!">
+  <img src="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=daramirra.mobile_appium&color=55acb7&style=flat&logo=Github&text=Hello_Visitors!"/>
+</a>
+</p>
+
 # Проект по автоматизации тестирования мобильного приложения Wikipedia (Android)
 
 #### :spiral_notepad: *Реализованы проверки по 4 экранам страницы Getting started мобильного приложения Wikipedia*
